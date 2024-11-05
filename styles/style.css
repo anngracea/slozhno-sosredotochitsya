@@ -22,7 +22,7 @@
 .cover {
   display: grid;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  min-block-size: 100vh;
+  min-block-size: max(100vh, 668px);
 }
 
 .decoration-area {
@@ -57,7 +57,7 @@
 }
 
 .text-link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid currentColor;
 }
 
 .text-link:focus {
@@ -113,6 +113,10 @@
 .highlighted-heading {
   color: var(--highlight-color, #000028);
   background: var(--accent-color, #ff0070);
+}
+
+h4.section-heading.highlighted-heading {
+  font-weight: 400;
 }
 
 .content-section {
