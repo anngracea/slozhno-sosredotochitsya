@@ -188,7 +188,7 @@ h4.section-heading.highlighted-heading {
 }
 
 .header__theme-menu-button:hover {
-  border-color: var(--secondary-color-o-40, #ff007040);
+  border-color: var(--secondary-color-transparent, #ff007040);
 }
 
 .header__theme-menu-button:focus {

@@ -6,11 +6,11 @@
 
   --color-purple-1: #db00ff;
   --color-purple-2: #ff0070;
-  --color-purple-2-o-40: #ff007040;
+  --color-purple-accent-opacity: #ff007040;
 
   --color-black-1: #000028;
   --color-black-2: #353430;
-  --color-black-2-o-40: #35343040;
+  --color-black-accent-opacity: #32312D66;
 
   --text-color: var(--color-pink-2, #f1b2ce);
   --brand-color: var(--color-purple-1, #db00ff);
